@@ -2,6 +2,104 @@
   text-align: center;
 }
 
+#navbar-about {
+  font-size: meduim;
+}
+
+#navbar-skills {
+  font-size: medium;
+}
+
+#navbar-projects {
+  font-size: medium;
+}
+
+#navbar-resume {
+  font-size: medium;
+}
+
+#navbar-hire-me {
+  font-size: medium;
+}
+
+#navbar-about:hover {
+  font-size: larger;
+  color: #000;
+  font-weight: bold;
+}
+
+#navbar-skills:hover {
+  font-size: larger;
+  color: #000;
+  font-weight: bold;
+}
+
+#navbar-projects:hover {
+  font-size: larger;
+  color: #000;
+  font-weight: bold;
+}
+
+#navbar-resume:hover {
+  font-size: larger;
+  color: #000;
+  font-weight: bold;
+}
+
+#navbar-hire-me:hover {
+  font-size: larger;
+  color: #000;
+  font-weight: bold;
+}
+
+.anchor-el {
+  text-decoration: none;
+  color: #fff;
+}
+
+.anchor-el:hover {
+  color: rgb(8, 227, 216);
+}
+
+.local-anchor-el {
+  font-family: "Bree serif";
+  font-size: xxx-large;
+}
+
+.resume-el {
+  color: springgreen;
+  font-size: 28px;
+}
+
+.resume-el:hover {
+  color: gold;
+}
+
+* {
+  font-family: "Garamond";
+}
+
+ul {
+  list-style: radial-gradient(#fff, lawngreen);
+}
+
+li {
+  padding-left: 8px;
+}
+
+button:hover {
+  color: gold;
+}
+
+a:hover {
+  color: lime;
+}
+
+h2 {
+  font-family: "Book antique";
+  font-weight: 4000;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -28,11 +126,378 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.my-name {
+  font-weight: 400;
+  font-size: x-large;
+  text-align: justify;
+}
+
+.ultimate-container {
+  background: #00161d;
+  color: #ffffff;
+  align-items: center;
+}
+
+.expertise-types {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  align-items: center;
+  color: #f6f8f8;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.text-reveal {
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  color: #00161d;
+}
+
+.name-reveal {
+  font-family: "Book antique";
+  color: #14c600;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.text-reveal span {
+  position: relative;
+}
+
+.name-reveal span {
+  position: relative;
+}
+
+.text-reveal span::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  animation: reveal 4s steps(100);
+  overflow: hidden;
+}
+
+.name-reveal span::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #020076;
+  animation: reveal 3200ms steps(100);
+  overflow: hidden;
+}
+
+@keyframes reveal {
+  0% {
+    width: 0%;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    width: 100%;
+  }
+}
+
+.nav-container {
+  background-color: #000;
+  width: 100%;
+  padding: 0px;
+}
+
+.about-me-container {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),
+    url("https://img.freepik.com/premium-photo/laptop-with-glowing-blue-screen-displaying-network-diagram-sits-dark-reflective-surface_14117-797915.jpg");
+  background-size: cover;
+}
+
+.about-me-ul {
+  font-size: larger;
+  font-family: "Roboto";
+  font-weight: 500;
+  list-style: disc;
+  color: #fff;
+  text-align: justify;
+}
+
+.open-to-relocation {
+  text-shadow: 1px 0px #0f0000dd;
+}
+
+.my-skills-container {
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.experience-header {
+  font-size: 28px;
+  color: #6535ea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience-li {
+  font-size: 22px;
+  text-align: justify;
+  padding: 4px 10px 4px 10px;
+}
+
+.projects-ul {
+  font-size: 22px;
+  text-align: justify;
+}
+
+.react-project-ul {
+  list-style: radial-gradient(#fff, orange);
+  font-size: 22px;
+  text-align: justify;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-title {
+  text-align: center;
+  font-size: 28px;
+}
+
+.project-image {
+  width: 340px;
+  height: 200px;
+  border-radius: 12px;
+  border: 3px solid #00ffa6;
+  margin-left: 18px;
+  margin-right: 0px;
+  padding: 0px;
+}
+
+.resume-text {
+  font-size: large;
+}
+
+.open-to-job-type {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-weight: 700;
+}
+
+.cert-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.cert-images {
+  width: 460px;
+  padding: 8px;
+}
+
+.want-to-hire-container {
+  background: #3d434c;
+  padding: 40px 30px 0px 100px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 20px;
+  color: #000;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+.form-element {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.form-element-input {
+  width: 90%;
+  border-radius: 10px;
+  padding: 8px 2px 8px 2px;
+  border: 0;
+}
+
+.button-icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 92vw;
+  background: #000;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+.button-icons {
+  background: transparent;
+  font-size: 40px;
+  border: 0;
+}
+
+@media screen and (max-width: 866px) {
+  .about-me-container {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.6)),
+      url("https://img.freepik.com/premium-photo/laptop-with-glowing-blue-screen-displaying-network-diagram-sits-dark-reflective-surface_14117-797915.jpg");
+    background-size: cover;
+  }
+
+  .nav-container {
+    display: flex;
+  }
+
+  .my-name {
+    font-weight: 800;
+    font-size: larger;
+    text-align: start;
+  }
+
+  .ultimate-container {
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-width: 440px;
+  }
+
+  .about-me-ul {
+    font-size: medium;
+    font-family: "Roboto";
+    font-weight: 400;
+    list-style: disc;
+    text-align: start;
+  }
+
+  .expertise-types {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f6f8f8;
+    font-size: 16px;
+    flex-wrap: wrap;
+  }
+
+  .text-reveal {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #00161d;
+  }
+
+  .experience-header {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .experience-li {
+    font-size: 18px;
+    text-align: start;
+    padding: 4px 10px 4px 10px;
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .project-title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .projects-ul {
+    font-size: 18px;
+    text-align: start;
+  }
+
+  .react-project-ul {
+    font-size: 18px;
+    text-align: start;
+  }
+
+  .project-image {
+    width: 22pc;
+    height: 10pc;
+    border-radius: 8px;
+    border: 2px solid #00ffa6;
+    margin: 0px 10px 0px 20px;
+  }
+
+  .resume-text {
+    font-size: large;
+  }
+
+  .resume-el {
+    color: springgreen;
+    font-size: 28px;
+  }
+
+  .open-to-job-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-weight: 500;
+  }
+
+  .cert-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .cert-images {
+    width: 340px;
+    padding: 10px;
+  }
+
+  .want-to-hire-container {
+    background: #3d434c;
+    padding: 20px 30px 0px 40px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 20px;
+    color: #000;
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+
+  .form-element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .form-element-input {
+    width: 90%;
+    border-radius: 10px;
+    padding: 8px 2px 8px 2px;
+    border: 0;
+  }
+
+  .button-icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 410px;
+    background: #000;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+  .button-icons {
+    background: transparent;
+    font-size: 28px;
+    border: 0;
   }
 }
