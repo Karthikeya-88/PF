@@ -126,48 +126,42 @@ function App() {
           <h2 className="text-center text-info">About Me</h2>
           <ul className="about-me-ul m-1">
             <li>
-              I'm Karthikeya from Karimnagar, Telangana. I have recently
-              Graduated with a Master of Business Administration (MBA) degree,
-              majoring in Human Resource Management, in 2024 and Under Graduated
-              with a Bachelor of Commerce (B.Com) degree in{" "}
+              I am Karthikeya from Karimnagar, Telangana. I hold an MBA in Human
+              Resource Management (2024) and a Bachelor of Commerce in{" "}
+              <b style={{ fontFamily: "Perpetua" }}>Computer Applications</b>{" "}
+              (2022) with a GPA of 7.0, blending business knowledge with a
+              growing passion for technology.
+            </li>
+            <li>
+              Immersing myself in Nxtwave’s cutting-edge curriculum has been
+              pivotal in shaping me into a proficient full-stack developer,
+              mastering MERN technologies like Node.js, React.js, and MongoDB
+              while honing my ability to build scalable, user-centric solutions.
+              <br />
+              On top of that, I mastered essential Developer foundations,
+              including core{" "}
               <b style={{ fontFamily: "Perpetua" }}>
-                Computer Applications (CA)
-              </b>{" "}
-              in 2022, earning a commendable GPA of 7.0
+                Computer science concepts, seamless Collaboration with Git, and
+                efficient Command line navigation.
+              </b>
             </li>
             <li>
-              Through my expertise in programming languages and in-depth
-              knowledge of frontend development, I have developed strong
-              problem-solving abilities. This expertise has fueled{" "}
+              My journey into technology stems from a deep-seated enthusiasm for
+              problem-solving and innovation. Equipped with expertise in
+              programming and frontend development,{" "}
               <b style={{ fontFamily: "Perpetua" }}>
-                {" "}
-                my enthusiasm for technological innovation
+                I have seamlessly transitioned my focus toward creating
+                impactful software solutions.
               </b>{" "}
-              and guided my{" "}
+            </li>
+            <li>
               <b style={{ fontFamily: "Perpetua" }}>
-                deliberate decision to pursue
+                As a dedicated MERN stack developer,{" "}
               </b>{" "}
-              a career in software development
-            </li>
-            <li>
-              Upon familiarizing myself with NxtWave's programming and
-              curriculum, I initiated my professional development in full-stack
-              development, signaling the start of my transformative journey in
-              this discipline
-            </li>
-            <li>
-              Now, I'm a Dedicated{" "}
-              <b style={{ fontFamily: "Perpetua" }}>MERN stack developer</b>{" "}
-              with a strong foundation in Node.js, React.js, and MongoDB.
-              Skilled in designing and implementing efficient database
-              solutions, developing scalable server-side architectures, and
-              crafting responsive frontend interfaces
-            </li>
-            <li>
-              <b style={{ fontFamily: "Perpetua" }}>Searching for </b> a Junior
-              Developer/Engineer role in Full Stack, Backend, or Frontend
-              development where I can apply my skills, drive technological
-              advancements, and collaborate with a dynamic team
+              I am eager to contribute my skills in full-stack, backend, or
+              frontend development. I aim to collaborate with dynamic teams,
+              drive technological progress, and craft innovative solutions that
+              redefine user experiences.
             </li>
           </ul>
         </div>
@@ -178,24 +172,34 @@ function App() {
             <p className="text-reveal">
               <span data-text="Full">Full </span>
               <span data-text="Stack">Stack </span>
-              <span data-text="Development">Development</span>
+              <span data-text="Developer">Developer</span>
             </p>
             <p className="text-reveal">
-              <span data-text="Full">Full </span>
+              <span data-text="MERN ">MERN </span>
               <span data-text="Stack">Stack </span>
+              <span data-text="Developer">Developer</span>
+            </p>
+          </div>
+          <div className="expertise-types m-1" style={{ fontFamily: "Roboto" }}>
+            <p className="text-reveal">
+              <span data-text="Software">Software </span>
               <span data-text="Engineer">Engineer</span>
+            </p>
+            <p className="text-reveal">
+              <span data-text="Web">Web </span>
+              <span data-text="Developer">Developer</span>
             </p>
           </div>
           <div className="expertise-types m-1" style={{ fontFamily: "Roboto" }}>
             <p className="text-reveal">
               <span data-text="Back">Back </span>
               <span data-text="End">End </span>
-              <span data-text="Development">Development</span>
+              <span data-text="Developer">Developer</span>
             </p>
             <p className="text-reveal">
               <span data-text="Front">Front </span>
               <span data-text="End">End </span>
-              <span data-text="Development">Development</span>
+              <span data-text="Developer">Developer</span>
             </p>
           </div>
         </div>
@@ -210,7 +214,7 @@ function App() {
             <h4 className="experience-header">
               <b>Teaching Assistant - Nxtwave</b>
             </h4>
-            <h6 className="experience-header">3 Months</h6>
+            <h6 className="experience-header">4 Months</h6>
           </div>
           <ul style={{ listStyle: "disc" }} className="text-black">
             <li className="experience-li">
@@ -260,7 +264,7 @@ function App() {
           >
             Download My Resume:{" "}
             <a
-              href="https://drive.google.com/file/d/1f3c-z-CBXr1zy70OBdo7p0eS555liY0M/view?usp=sharing"
+              href="https://drive.google.com/file/d/16afAk0taPIL-7WxwBO_SBNiIe_ShwH2d/view?usp=sharing"
               className="resume-el"
             >
               <IoIosNavigate />
@@ -813,6 +817,17 @@ function App() {
               alt="js"
               className="cert-images"
             />
+            <img
+              src="https://res.cloudinary.com/dnmyyqfhs/image/upload/v1736395354/Screenshot_1113_zdqxtx.png"
+              alt="dynamic-js"
+              className="cert-images"
+            />
+            <img
+              src="https://res.cloudinary.com/dnmyyqfhs/image/upload/v1736395265/Screenshot_1112_bv7wda.png"
+              alt="dev-foundations"
+              className="cert-images"
+            />
+
             <img
               src="https://res.cloudinary.com/dnmyyqfhs/image/upload/v1735840562/Screenshot_1101_w9wwmb.png"
               alt="py"

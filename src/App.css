@@ -156,7 +156,7 @@ h2 {
 
 .name-reveal {
   font-family: "Book antique";
-  color: #14c600;
+  color: #16de00;
   text-decoration: underline;
   font-weight: bolder;
 }
@@ -175,7 +175,7 @@ h2 {
   top: 0;
   left: 0;
   color: #fff;
-  animation: reveal 4s steps(100);
+  animation: reveal 4s steps(80);
   overflow: hidden;
 }
 
@@ -185,7 +185,7 @@ h2 {
   top: 0;
   left: 0;
   color: #020076;
-  animation: reveal 3200ms steps(100);
+  animation: reveal 8s steps(200);
   overflow: hidden;
 }
 
