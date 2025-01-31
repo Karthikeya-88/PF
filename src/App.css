@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
 .App {
   text-align: center;
 }
@@ -73,6 +75,12 @@
 
 .resume-el:hover {
   color: gold;
+}
+
+.project-image:hover {
+  box-shadow: rgba(255, 255, 255, 0.8) 0px 8px 16px,
+    rgba(10, 244, 255, 0.8) 0px 7px 13px -3px,
+    rgba(244, 244, 200, 0.8) 0px -3px 0px inset;
 }
 
 * {
@@ -285,6 +293,15 @@ h2 {
   font-weight: 700;
 }
 
+#myCert {
+  background: #ececec;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
 .cert-container {
   display: flex;
   justify-content: space-around;
@@ -293,7 +310,14 @@ h2 {
 
 .cert-images {
   width: 460px;
-  padding: 8px;
+  padding: 20px;
+}
+
+.cert-images:hover {
+  width: 464px;
+  box-shadow: rgba(0, 0, 128, 0.4) 6px 6px, rgba(0, 0, 128, 0.3) 12px 12px,
+    rgba(0, 0, 128, 0.2) 20px 20px, rgba(0, 0, 128, 0.1) 20px 20px,
+    rgba(0, 0, 128, 0.05) 28px 28px;
 }
 
 .want-to-hire-container {
@@ -340,7 +364,39 @@ h2 {
   border: 0;
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (min-width: 768px) and (max-width: 988px) {
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding: 0px;
+  }
+
+  .project-title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .projects-ul {
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .react-project-ul {
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .project-image {
+    width: 360px;
+    height: 220px;
+    border-radius: 8px;
+    border: 2px solid #00ffa6;
+    margin: 0px 2px 0px 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .about-me-container {
     background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.6)),
       url("https://img.freepik.com/premium-photo/laptop-with-glowing-blue-screen-displaying-network-diagram-sits-dark-reflective-surface_14117-797915.jpg");
@@ -455,6 +511,14 @@ h2 {
   .cert-images {
     width: 340px;
     padding: 10px;
+  }
+
+  .cert-images:hover {
+    width: 344px;
+    box-shadow: rgba(0, 0, 128, 0.4) 4px 4px, rgba(0, 0, 128, 0.3) 8px 8px,
+      rgba(0, 0, 128, 0.2) 12px 14px, rgba(0, 0, 128, 0.1) 14px 14px,
+      rgba(0, 0, 128, 0.05) 20px 20px;
+    margin: 2px;
   }
 
   .want-to-hire-container {

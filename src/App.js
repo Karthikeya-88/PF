@@ -214,7 +214,7 @@ function App() {
             <h4 className="experience-header">
               <b>Teaching Assistant - Nxtwave</b>
             </h4>
-            <h6 className="experience-header">4 Months</h6>
+            <h6 className="experience-header">5 Months</h6>
           </div>
           <ul style={{ listStyle: "disc" }} className="text-black">
             <li className="experience-li">
@@ -793,7 +793,7 @@ function App() {
         <div
           className="mb-2 p-4 text-dark rounded border border-dark"
           id="myCert"
-          style={{ backgroundColor: "#010101", width: "94vw" }}
+          style={{ width: "94vw" }}
         >
           <h2 className="text-center text-info">My Certifications</h2>
           <div className="cert-container">
