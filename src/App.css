@@ -106,6 +106,10 @@ a:hover {
 h2 {
   font-family: "Book antique";
   font-weight: 4000;
+  background-image: url("https://res.cloudinary.com/dnmyyqfhs/image/upload/v1739200486/orsrc44672_iinmpm.jpg") !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-size: cover !important;
 }
 
 .App-logo {
@@ -141,7 +145,7 @@ h2 {
 }
 
 .ultimate-container {
-  background: #00161d;
+  background: linear-gradient(to right, #0f172a 40%, #4a2c6f 80%, #3a86ff 98%);
   color: #ffffff;
   align-items: center;
 }
@@ -159,7 +163,8 @@ h2 {
 .text-reveal {
   font-size: 24px;
   font-family: Arial, sans-serif;
-  color: #00161d;
+  color: transparent;
+  text-shadow: 0px 1px 1px;
 }
 
 .name-reveal {
@@ -213,9 +218,11 @@ h2 {
 }
 
 .about-me-container {
-  background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),
-    url("https://img.freepik.com/premium-photo/laptop-with-glowing-blue-screen-displaying-network-diagram-sits-dark-reflective-surface_14117-797915.jpg");
+  background-image: url("https://res.cloudinary.com/dnmyyqfhs/image/upload/v1739201410/360_F_236195116_IWbsVnjfNpwfioW6eHgIXoIqlif9ZXei1_finczk.jpg") !important;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
   background-size: cover;
+  text-align: justify;
 }
 
 .about-me-ul {
@@ -238,10 +245,13 @@ h2 {
 
 .experience-header {
   font-size: 28px;
-  color: #6535ea;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDDrRiUZkEPEaXBbyE0CEyI3K2QO8SfCVj6w&s.jpg");
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-size: cover;
 }
 
 .experience-li {
@@ -304,11 +314,18 @@ h2 {
 
 .cert-container {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
 }
 
 .cert-images {
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease-in-out;
   width: 460px;
   padding: 20px;
 }
@@ -318,6 +335,7 @@ h2 {
   box-shadow: rgba(0, 0, 128, 0.4) 6px 6px, rgba(0, 0, 128, 0.3) 12px 12px,
     rgba(0, 0, 128, 0.2) 20px 20px, rgba(0, 0, 128, 0.1) 20px 20px,
     rgba(0, 0, 128, 0.05) 28px 28px;
+  transform: scale(1.05);
 }
 
 .want-to-hire-container {
@@ -421,9 +439,9 @@ h2 {
   }
 
   .about-me-ul {
-    font-size: medium;
+    font-size: smaller;
     font-family: "Roboto";
-    font-weight: 400;
+    font-weight: 200;
     list-style: disc;
     text-align: start;
   }
@@ -440,7 +458,7 @@ h2 {
   .text-reveal {
     font-size: 16px;
     font-family: Arial, sans-serif;
-    color: #00161d;
+    color: transparent;
   }
 
   .experience-header {
@@ -449,7 +467,7 @@ h2 {
   }
 
   .experience-li {
-    font-size: 18px;
+    font-size: 14px;
     text-align: start;
     padding: 4px 10px 4px 10px;
   }
@@ -469,11 +487,13 @@ h2 {
   .projects-ul {
     font-size: 18px;
     text-align: start;
+    margin-right: 8px;
   }
 
   .react-project-ul {
     font-size: 18px;
     text-align: start;
+    margin-right: 8px;
   }
 
   .project-image {
@@ -498,7 +518,8 @@ h2 {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    font-weight: 500;
+    font-weight: 200;
+    font-size: smaller;
   }
 
   .cert-container {
@@ -509,7 +530,7 @@ h2 {
   }
 
   .cert-images {
-    width: 340px;
+    width: 240px;
     padding: 10px;
   }
 
@@ -519,6 +540,10 @@ h2 {
       rgba(0, 0, 128, 0.2) 12px 14px, rgba(0, 0, 128, 0.1) 14px 14px,
       rgba(0, 0, 128, 0.05) 20px 20px;
     margin: 2px;
+  }
+
+  .ask-me {
+    min-width: 480px;
   }
 
   .want-to-hire-container {
@@ -563,5 +588,12 @@ h2 {
     background: transparent;
     font-size: 28px;
     border: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .cert-images {
+    width: 200px;
+    padding: 8px;
   }
 }

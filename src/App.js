@@ -4,6 +4,8 @@ import { MdEmail, MdOutlineCall } from "react-icons/md";
 import { BiLogoLinkedinSquare } from "react-icons/bi";
 import { VscGithub } from "react-icons/vsc";
 import { LiaCopyrightSolid } from "react-icons/lia";
+import AskMeSection from "./components/Askme";
+
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -183,7 +185,7 @@ function App() {
           <div className="expertise-types m-1" style={{ fontFamily: "Roboto" }}>
             <p className="text-reveal">
               <span data-text="Software">Software </span>
-              <span data-text="Engineer">Engineer</span>
+              <span data-text="Developer">Developer</span>
             </p>
             <p className="text-reveal">
               <span data-text="Web">Web </span>
@@ -202,11 +204,21 @@ function App() {
               <span data-text="Developer">Developer</span>
             </p>
           </div>
+          <div className="expertise-types m-1" style={{ fontFamily: "Roboto" }}>
+            <p className="text-reveal">
+              <span data-text="Application">Application </span>
+              <span data-text="Developer">Developer</span>
+            </p>
+            <p className="text-reveal">
+              <span data-text="React">React </span>
+              <span data-text="Developer">Developer</span>
+            </p>
+          </div>
         </div>
         <hr style={{ width: "80%", border: "2px solid seashell" }} />
         <div
           className="mb-2 p-4 text-dark rounded border border-light"
-          style={{ backgroundColor: "#e7e5e4", width: "94vw" }}
+          style={{ backgroundColor: "#e7e5e4", width: "96vw" }}
           id="myExperience"
         >
           <h2 className="text-center text-info">Experience</h2>
@@ -214,11 +226,11 @@ function App() {
             <h4 className="experience-header">
               <b>Teaching Assistant - Nxtwave</b>
             </h4>
-            <h6 className="experience-header">5 Months</h6>
+            <h6 className="experience-header">6 Months</h6>
           </div>
           <ul style={{ listStyle: "disc" }} className="text-black">
             <li className="experience-li">
-              As a Teaching Assistant for the CCBPian community, I provide
+              As a Teaching Assistant for the CCBPian community, I provided
               expert technical mentorship in the MERN stack. I specialize in
               guiding learners through its complexities, debugging intricate
               issues, and empowering students to think critically and solve
@@ -232,6 +244,7 @@ function App() {
               engaging, empowering learners with confidence and practical
               skills.
             </li>
+            <li className="experience-li">Resolved more than 300 queries</li>
           </ul>
           <div className="text-justify">
             <h4 style={{ color: "#4445ea", fontFamily: "Lora" }}>
@@ -243,9 +256,9 @@ function App() {
             >
               {" "}
               <li>Debugging & troubleshooting</li>
-              <li>Database management</li>
-              <li>Backend development</li>
-              <li>Frontend development</li>
+              <li>Database queries resolved</li>
+              <li>Backend queries simplified</li>
+              <li>Frontend queries explained</li>
               <li>Problem-solving & analytical thinking</li>{" "}
               <li>Professional formal response</li>
             </ol>
@@ -838,7 +851,21 @@ function App() {
               alt="db"
               className="cert-images"
             />
+            <img
+              src="https://res.cloudinary.com/dnmyyqfhs/image/upload/v1739202289/Screenshot_1159_g9nela.png"
+              alt="responsive"
+              className="cert-images"
+            />
+            <img
+              src="https://res.cloudinary.com/dnmyyqfhs/image/upload/v1739168961/Screenshot_1156_m4mwqc.png"
+              alt="static"
+              className="cert-images"
+            />
           </div>
+        </div>
+        <hr style={{ width: "80%", border: "2px solid seashell" }} />
+        <div>
+          <AskMeSection className="m-2" />
         </div>
         <hr style={{ width: "80%", border: "2px solid seashell" }} />
         <div
@@ -874,7 +901,7 @@ function App() {
           </div>
         </div>
         <div className="text-center text-white m-0 p-0 d-flex justify-content-center align-items-center">
-          <p style={{ fontFamily: "Bree serif" }}>
+          <p style={{ fontFamily: "Perpetua" }}>
             Copyright{" "}
             <span>
               <LiaCopyrightSolid />{" "}
