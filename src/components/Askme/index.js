@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./index.css"; // Import the CSS file
+import "./index.css";
 
 class AskMeSection extends Component {
   state = {
@@ -30,9 +30,13 @@ class AskMeSection extends Component {
         <p style={{ font: "italic 20px Lora" }}>
           I'm open for freelancing! 🚀 Need a{" "}
           <b style={{ font: "bold italic 22px Lora" }}>full-stack app</b> built
-          from the ground up with React & Node.js? Let me turn your vision into
-          a scalable, high-performance reality — tailored just for you! Let's
-          build something amazing together. 💡✨
+          from the ground up with{" "}
+          <b style={{ font: "bold italic 22px Constantia" }}>
+            {" "}
+            React, Node & Mongo or SQL?
+          </b>{" "}
+          Let me turn your vision into a scalable, high-performance reality —
+          tailored just for you! Let's build something amazing together. 💡✨
         </p>
         <br />
         <form onSubmit={this.handleSubmit}>

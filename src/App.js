@@ -131,8 +131,8 @@ function App() {
               I am Karthikeya from Karimnagar, Telangana. I hold an MBA in Human
               Resource Management (2024) and a Bachelor of Commerce in{" "}
               <b style={{ fontFamily: "Perpetua" }}>Computer Applications</b>{" "}
-              (2022) with a GPA of 7.0, blending business knowledge with a
-              growing passion for technology.
+              (2022), blending business knowledge with a growing passion for
+              technology.
             </li>
             <li>
               Immersing myself in Nxtwave’s cutting-edge curriculum has been
@@ -211,14 +211,15 @@ function App() {
             </p>
             <p className="text-reveal">
               <span data-text="React">React </span>
+              <span data-text="Native">Native </span>
               <span data-text="Developer">Developer</span>
             </p>
           </div>
         </div>
         <hr style={{ width: "80%", border: "2px solid seashell" }} />
         <div
-          className="mb-2 p-4 text-dark rounded border border-light"
-          style={{ backgroundColor: "#e7e5e4", width: "96vw" }}
+          className="mb-2 p-4 text-black rounded border border-light"
+          style={{ backgroundColor: "#e1f1fa", width: "96vw" }}
           id="myExperience"
         >
           <h2 className="text-center text-info">Experience</h2>
@@ -230,21 +231,17 @@ function App() {
           </div>
           <ul style={{ listStyle: "disc" }} className="text-black">
             <li className="experience-li">
-              As a Teaching Assistant for the CCBPian community, I provided
-              expert technical mentorship in the MERN stack. I specialize in
-              guiding learners through its complexities, debugging intricate
-              issues, and empowering students to think critically and solve
-              problems independently.
+              As a Teaching Assistant for the CCBPian community, I offered
+              expert mentorship in the MERN stack, helping learners navigate its
+              challenges with ease. My focus was on simplifying complex
+              concepts, debugging intricate issues, and fostering critical
+              thinking to enable students to solve problems independently.
             </li>
             <li className="experience-li">
-              I specialize in JavaScript, Python, and SQL, delivering seamless
-              solutions that integrate backend data management with modern
-              frontend design. From debugging APIs to optimizing queries and
-              simplifying React logic, I make complex concepts clear and
-              engaging, empowering learners with confidence and practical
+              With over 300+ queries resolved, I made learning engaging and
+              practical, equipping students with confidence and real-world
               skills.
             </li>
-            <li className="experience-li">Resolved more than 300 queries</li>
           </ul>
           <div className="text-justify">
             <h4 style={{ color: "#4445ea", fontFamily: "Lora" }}>
@@ -256,19 +253,17 @@ function App() {
             >
               {" "}
               <li>Debugging & troubleshooting</li>
-              <li>Database queries resolved</li>
-              <li>Backend queries simplified</li>
-              <li>Frontend queries explained</li>
+              <li>Addressed full-stack queries with precision</li>
               <li>Problem-solving & analytical thinking</li>{" "}
-              <li>Professional formal response</li>
+              <li>Professional and a refined touch of formal response</li>
             </ol>
           </div>
         </div>
         <hr style={{ width: "80%", border: "2px solid seashell" }} />
         <div
-          className="mb-2 p-4 text-dark rounded border border-light"
+          className="mb-2 p-4 text-black rounded border border-black"
           id="myResume"
-          style={{ backgroundColor: "#e7e5e4", width: "94vw" }}
+          style={{ backgroundColor: "#F6F6C8", width: "94vw" }}
         >
           <h2 className="text-center text-info">My Resume</h2>
           <h6
@@ -529,6 +524,48 @@ function App() {
               <li>
                 Leveraged JSON data storage for scalable todo management,
                 ensuring secure and efficient API performance
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="ml-4 mt-2 project-title">
+              <span style={{ fontFamily: "Bree Serif", color: "lawngreen" }}>
+                Node JS Project:
+              </span>{" "}
+              Contact Management Application (My Own Development){" "}
+              <span>
+                <a href="https://github.com/Karthikeya-88/Cont-Mgt-App.git">
+                  <IoNavigateSharp />
+                </a>
+              </span>{" "}
+            </h4>
+            <ul className="projects-ul">
+              <li>
+                Independently developed a comprehensive Node.js-based Contact
+                Management application from the ground up, meticulously
+                designing and implementing a set of robust CRUD (Create, Read,
+                Update, Delete) APIs to facilitate seamless and efficient data
+                handling.
+              </li>
+              <li>
+                This involved architecting a scalable backend structure that
+                ensured high performance and reliability, allowing users to
+                effortlessly manage their contact information with enhanced
+                security and data integrity. The application was built with a
+                focus on modularity and maintainability, utilizing industry best
+                practices to create clean and efficient code.
+              </li>
+              <li>
+                By leveraging asynchronous programming techniques and optimizing
+                database queries, the system provided a responsive user
+                experience even under high data loads.
+              </li>
+              <li>
+                Additionally, rigorous testing and debugging were conducted to
+                ensure error-free functionality and smooth integration with
+                frontend interfaces, making the Contact Management application a
+                reliable and user-friendly solution for managing personal and
+                professional contacts.
               </li>
             </ul>
           </div>
@@ -806,59 +843,59 @@ function App() {
         <div
           className="mb-2 p-4 text-dark rounded border border-dark"
           id="myCert"
-          style={{ width: "94vw" }}
+          style={{ width: "94vw", backgroundColor: "#e1f1fa" }}
         >
           <h2 className="text-center text-info">My Certifications</h2>
           <div className="cert-container">
             <img
               src="https://res.cloudinary.com/dnmyyqfhs/image/upload/v1735840048/Screenshot_1099_m8bbkf.png"
-              alt="irc"
+              alt="IRC"
               className="cert-images"
             />
             <img
               src="https://res.cloudinary.com/dnmyyqfhs/image/upload/v1735840467/Screenshot_1100_tb3izq.png"
-              alt="react"
+              alt="React"
               className="cert-images"
             />
             <img
               src="https://res.cloudinary.com/dnmyyqfhs/image/upload/v1735840499/Screenshot_1103_pktdia.png"
-              alt="node"
+              alt="Node"
               className="cert-images"
             />
             <img
               src="https://res.cloudinary.com/dnmyyqfhs/image/upload/v1735840532/Screenshot_1104_ocewaj.png"
-              alt="js"
+              alt="Javascript"
               className="cert-images"
             />
             <img
               src="https://res.cloudinary.com/dnmyyqfhs/image/upload/v1736395354/Screenshot_1113_zdqxtx.png"
-              alt="dynamic-js"
+              alt="Dynamic web application"
               className="cert-images"
             />
             <img
               src="https://res.cloudinary.com/dnmyyqfhs/image/upload/v1736395265/Screenshot_1112_bv7wda.png"
-              alt="dev-foundations"
+              alt="Developer foundations"
               className="cert-images"
             />
 
             <img
               src="https://res.cloudinary.com/dnmyyqfhs/image/upload/v1735840562/Screenshot_1101_w9wwmb.png"
-              alt="py"
+              alt="Programming with Python"
               className="cert-images"
             />
             <img
               src="https://res.cloudinary.com/dnmyyqfhs/image/upload/v1735840597/Screenshot_1102_mwwqvt.png"
-              alt="db"
+              alt="Sql database"
               className="cert-images"
             />
             <img
               src="https://res.cloudinary.com/dnmyyqfhs/image/upload/v1739202289/Screenshot_1159_g9nela.png"
-              alt="responsive"
+              alt="Responsive web application"
               className="cert-images"
             />
             <img
               src="https://res.cloudinary.com/dnmyyqfhs/image/upload/v1739168961/Screenshot_1156_m4mwqc.png"
-              alt="static"
+              alt="Static web application"
               className="cert-images"
             />
           </div>
@@ -871,7 +908,7 @@ function App() {
         <div
           className="want-to-hire-container mb-2 p-2 pb-1"
           id="hireMe"
-          style={{ backgroundColor: "#e7e5e4" }}
+          style={{ backgroundColor: "#F6F6C8" }}
         >
           <h2 className="text-center text-info">Want to Hire Me</h2>
           <div className="button-icons-container mt-4">

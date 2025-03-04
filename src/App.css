@@ -79,7 +79,7 @@
 
 .project-image:hover {
   box-shadow: rgba(255, 255, 255, 0.8) 0px 8px 16px,
-    rgba(10, 244, 255, 0.8) 0px 7px 13px -3px,
+    rgba(10, 255, 177, 0.945) 0px 7px 13px -3px,
     rgba(244, 244, 200, 0.8) 0px -3px 0px inset;
 }
 
@@ -104,7 +104,7 @@ a:hover {
 }
 
 h2 {
-  font-family: "Book antique";
+  font-family: "Book antique" !important;
   font-weight: 4000;
   background-image: url("https://res.cloudinary.com/dnmyyqfhs/image/upload/v1739200486/orsrc44672_iinmpm.jpg") !important;
   -webkit-background-clip: text !important;
@@ -255,7 +255,7 @@ h2 {
 }
 
 .experience-li {
-  font-size: 22px;
+  font-size: 24px;
   text-align: justify;
   padding: 4px 10px 4px 10px;
 }
@@ -285,11 +285,11 @@ h2 {
 .project-image {
   width: 340px;
   height: 200px;
-  border-radius: 12px;
-  border: 3px solid #00ffa6;
+  border-radius: 8px;
+  border: 2.6px solid #00a9f2;
   margin-left: 18px;
   margin-right: 0px;
-  padding: 0px;
+  padding-left: 0px;
 }
 
 .resume-text {
@@ -335,7 +335,7 @@ h2 {
   box-shadow: rgba(0, 0, 128, 0.4) 6px 6px, rgba(0, 0, 128, 0.3) 12px 12px,
     rgba(0, 0, 128, 0.2) 20px 20px, rgba(0, 0, 128, 0.1) 20px 20px,
     rgba(0, 0, 128, 0.05) 28px 28px;
-  transform: scale(1.05);
+  transform: scale(1.06);
 }
 
 .want-to-hire-container {
