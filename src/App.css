@@ -78,9 +78,9 @@
 }
 
 .project-image:hover {
-  box-shadow: rgba(255, 255, 255, 0.8) 0px 8px 16px,
-    rgba(10, 255, 177, 0.945) 0px 7px 13px -3px,
-    rgba(244, 244, 200, 0.8) 0px -3px 0px inset;
+  box-shadow: rgba(255, 255, 255, 0.8) 0px -4px 10px,
+    rgba(10, 255, 177, 0.945) 0px 7px 13px -4px,
+    rgba(244, 244, 200, 0.8) 8px 2px 0px inset;
 }
 
 * {
@@ -260,38 +260,6 @@ h2 {
   padding: 4px 10px 4px 10px;
 }
 
-.projects-ul {
-  font-size: 22px;
-  text-align: justify;
-}
-
-.react-project-ul {
-  list-style: radial-gradient(#fff, orange);
-  font-size: 22px;
-  text-align: justify;
-}
-
-.project-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.project-title {
-  text-align: center;
-  font-size: 28px;
-}
-
-.project-image {
-  width: 340px;
-  height: 200px;
-  border-radius: 8px;
-  border: 2.6px solid #00a9f2;
-  margin-left: 18px;
-  margin-right: 0px;
-  padding-left: 0px;
-}
-
 .resume-text {
   font-size: large;
 }
@@ -439,7 +407,7 @@ h2 {
   }
 
   .about-me-ul {
-    font-size: smaller;
+    font-size: small;
     font-family: "Roboto";
     font-weight: 200;
     list-style: disc;
@@ -470,38 +438,6 @@ h2 {
     font-size: 14px;
     text-align: start;
     padding: 4px 10px 4px 10px;
-  }
-
-  .project-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 40px;
-  }
-
-  .project-title {
-    font-size: 20px;
-    text-align: center;
-  }
-
-  .projects-ul {
-    font-size: 18px;
-    text-align: start;
-    margin-right: 8px;
-  }
-
-  .react-project-ul {
-    font-size: 18px;
-    text-align: start;
-    margin-right: 8px;
-  }
-
-  .project-image {
-    width: 22pc;
-    height: 10pc;
-    border-radius: 8px;
-    border: 2px solid #00ffa6;
-    margin: 0px 10px 0px 20px;
   }
 
   .resume-text {
