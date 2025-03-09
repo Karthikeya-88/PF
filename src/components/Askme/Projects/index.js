@@ -123,6 +123,20 @@ const projects = [
       "https://res.cloudinary.com/dnmyyqfhs/image/upload/v1727522986/Screenshot_1075_wmdmic.png",
     link: "https://karthiknxtrends.ccbp.tech/",
   },
+  {
+    id: 10,
+    title: "Linkup Social Media App",
+    category: "React Native",
+    description: [
+      "I built LinkUp, a social media app using React Native Expo and Supabase, an open-source backend platform.",
+      "Inspired by a 6½-hour YouTube tutorial, I implemented secure authentication and dynamic features like profile editing, posting media, and interactive likes, comments, and shares.",
+      "To boost engagement, I added a real-time notifications system that alerts users when their posts receive comments.",
+      "This creates a more connected and responsive community, enhancing the overall user experience.",
+      "Install the 'APPLICATION' via the Expo link above, sign up to verify your account, and log in to explore what I’ve created! ",
+    ],
+    github:
+      "https://expo.dev/accounts/karthikeya_d88/projects/linkup-social-media-app/builds/145ad5fb-1485-430a-92d0-04136246d19d",
+  },
 ];
 
 const ProjectFilter = () => {
@@ -136,17 +150,25 @@ const ProjectFilter = () => {
     "Full Stack": "cyan",
     ReactJS: "orange",
     NodeJS: "lime",
+    "React Native": "blueviolet",
   };
 
   const listItemColors = {
     "Full Stack": "cyan",
     ReactJS: "orange",
     NodeJS: "lime",
+    "React Native": "blueviolet",
   };
 
   return (
     <div>
       <div className="filter-options">
+        <button
+          className="react-native-filter-btn"
+          onClick={() => setSelectedCategory("React Native")}
+        >
+          <span>React Native</span>
+        </button>
         <button
           className="full-stack-filter-btn"
           onClick={() => setSelectedCategory("Full Stack")}
@@ -181,6 +203,8 @@ const ProjectFilter = () => {
                   ? "Full-Stack Application:"
                   : project.category === "ReactJS"
                   ? "React JS App:"
+                  : project.category === "React Native"
+                  ? "React Native App:"
                   : "Node JS Project:"}
               </span>{" "}
               {project.title}{" "}
