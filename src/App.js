@@ -4,10 +4,12 @@ import { BiLogoLinkedinSquare } from "react-icons/bi";
 import { VscGithub } from "react-icons/vsc";
 import { LiaCopyrightSolid } from "react-icons/lia";
 import AskMeSection from "./components/Askme";
+import Skills from "./components/Skills";
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ProjectFilter from "./components/Askme/Projects";
+import ProjectFilter from "./components/Projects";
+import About from "./components/About";
 
 function App() {
   return (
@@ -121,52 +123,7 @@ function App() {
             </div>
           </div>
         </nav>
-        <div
-          className="about-me-container mb-2 p-2 rounded mt-5 pt-4"
-          id="aboutMe"
-        >
-          <h2 className="text-center text-info">About Me</h2>
-          <ul className="about-me-ul m-1">
-            <li>
-              I am Karthikeya from Karimnagar, Telangana. I hold an MBA in Human
-              Resource Management (2024) and a Bachelor of Commerce in{" "}
-              <b style={{ fontFamily: "Perpetua" }}>Computer Applications</b>{" "}
-              (2022), blending business knowledge with a growing passion for
-              technology.
-            </li>
-            <li>
-              Immersing myself in Nxtwave’s cutting-edge curriculum has been
-              pivotal in shaping me into a proficient full-stack developer,
-              mastering MERN technologies like Node.js, React.js, and MongoDB
-              while honing my ability to build scalable, user-centric solutions.
-              <br />
-              On top of that, I mastered essential Developer foundations,
-              including core{" "}
-              <b style={{ fontFamily: "Perpetua" }}>
-                Computer science concepts, seamless Collaboration with Git, and
-                efficient Command line navigation.
-              </b>
-            </li>
-            <li>
-              My journey into technology stems from a deep-seated enthusiasm for
-              problem-solving and innovation. Equipped with expertise in
-              programming and frontend development,{" "}
-              <b style={{ fontFamily: "Perpetua" }}>
-                I have seamlessly transitioned my focus toward creating
-                impactful software solutions.
-              </b>{" "}
-            </li>
-            <li>
-              <b style={{ fontFamily: "Perpetua" }}>
-                As a dedicated MERN stack developer,{" "}
-              </b>{" "}
-              I am eager to contribute my skills in full-stack, backend, or
-              frontend development. I aim to collaborate with dynamic teams,
-              drive technological progress, and craft innovative solutions that
-              redefine user experiences.
-            </li>
-          </ul>
-        </div>
+        <About />
         <hr style={{ width: "80%", border: "2px solid seashell" }} />
         <div className="mb-2 p-2">
           <h2 className="text-center text-info">Expertise Offered</h2>
@@ -229,7 +186,14 @@ function App() {
             </h4>
             <h6 className="experience-header">6 Months</h6>
           </div>
-          <ul style={{ listStyle: "disc" }} className="text-black">
+          <ul
+            style={{
+              listStyle: "disc",
+              font: "22px Garamond, Perpetua",
+              lineHeight: "1.6",
+            }}
+            className="text-black"
+          >
             <li className="experience-li">
               As a Teaching Assistant for the CCBPian community, I offered
               expert mentorship in the MERN stack, helping learners navigate its
@@ -248,8 +212,13 @@ function App() {
               <b>Skills Acquired:</b>
             </h4>
             <ol
-              style={{ listStyle: "decimal" }}
-              className="text-dark about-me-ul"
+              style={{
+                listStyle: "decimal",
+                font: "20px Garamond, Perpetua",
+
+                fontWeight: "600",
+              }}
+              className="text-dark"
             >
               {" "}
               <li>Debugging & troubleshooting</li>
@@ -293,65 +262,7 @@ function App() {
           <h4 className="mb-3 text-center">I'm flexible regarding job types</h4>
         </div>
         <hr style={{ width: "80%", border: "2px solid seashell" }} />
-        <div className="my-skills-container mb-4 p-2" id="mySkills">
-          <h2 className="text-center text-info">My Skills</h2>
-          <div
-            id="carouselExampleInterval"
-            className="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div className="carousel-inner">
-              <div className="carousel-item active" data-bs-interval="2000">
-                <img
-                  src="https://res.cloudinary.com/dnmyyqfhs/image/upload/v1727620556/Back-end_Development_bfh3ma.png"
-                  className="d-block w-100"
-                  style={{ borderRadius: "8px" }}
-                  alt="Backend"
-                />
-              </div>
-              <div className="carousel-item" data-bs-interval="2000">
-                <img
-                  src="https://res.cloudinary.com/dnmyyqfhs/image/upload/v1727620774/Databases_woyeqq.png"
-                  className="d-block w-100"
-                  style={{ borderRadius: "8px" }}
-                  alt="Database"
-                />
-              </div>
-              <div className="carousel-item" data-bs-interval="2000">
-                <img
-                  src="https://res.cloudinary.com/dnmyyqfhs/image/upload/v1727620964/Front-end_Development_m9qjx8.png"
-                  className="d-block w-100"
-                  style={{ borderRadius: "8px" }}
-                  alt="Frontend"
-                />
-              </div>
-            </div>
-            <button
-              className="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleInterval"
-              data-bs-slide="prev"
-            >
-              <span
-                className="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span className="visually-hidden">Previous</span>
-            </button>
-            <button
-              className="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleInterval"
-              data-bs-slide="next"
-            >
-              <span
-                className="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span className="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
+        <Skills />
         <hr style={{ width: "80%", border: "2px solid seashell" }} />
         <div className="mb-2 p-4" id="myProjects">
           <h2 className="text-center text-info">My Projects</h2>
